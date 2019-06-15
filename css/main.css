@@ -1,0 +1,266 @@
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.full-width {
+    margin: 0 auto;
+}
+
+body {
+  background-color: #1f202b;
+}
+
+#name, #portfolio p,
+#about p, #contact p,
+#background-two p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+#portfolio, #contact {
+    overflow: auto;
+    margin: 0 100px;
+}
+
+header, #portfolio, #contact {
+    color: white;
+}
+
+h2, h4 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+   padding-top: 230px;
+   margin-left: 100px;
+   font-size: 72px;
+}
+
+h4 {
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    color: #f70074;
+}
+
+/*HEADER*/
+
+#name {
+    font-weight: normal;
+    font-size: 30px;
+    height: 75px;
+    margin: 0 35px;
+}
+
+#name p {
+    float: left;
+    margin: 0 auto;
+    padding-top: 17px;
+}
+
+nav {
+    float: right;
+    margin: 0 auto;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+}
+
+header #background {
+    background: url('../img/hero-background.png');
+}
+
+#background {
+    height: 725px;
+    overflow: auto;
+}
+
+span {
+    color: #fa0075;
+}
+
+/*PORTFOLIO*/
+
+#portfolio {
+    height: 1550px;
+}
+
+#portfolio p {
+    margin: 0 auto;
+}
+
+#half-widthl-clear, .half-widthl, .half-widthr {
+    padding-top: 105px;
+}
+
+.half-widthl, .half-widthr {
+    height: 350px;
+    width: 550px;
+}
+
+.half-widthl {
+    float: left;
+}
+
+.half-widthr {
+    float: right;
+}
+
+#half-widthl-clear {
+    height: 350px;
+    width: 550px;
+    float: left;
+    clear: both;
+    text-align: right;
+}
+
+/*ABOUT*/
+
+#about {
+    height: 550px;
+}
+
+#about {
+  background: url('../img/about-me.png');
+}
+
+#about h4 {
+    padding-bottom: 80px;
+}
+
+#about p {
+    padding-left: 100px;
+    margin: 0 auto;
+}
+
+.pbold {
+    font-weight: bold;
+}
+
+.s-caps {
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+.span-two {
+    color: black;
+    font-weight: bolder;
+}
+
+/*CONTACT*/
+
+#contact {
+    height: 400px;
+}
+
+#contact h4 {
+    padding-bottom: 10px;
+}
+
+.third-width {
+    height: 150px;
+    width: 400px;
+    float: left;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+
+.third-width p {
+    margin: 0 auto;
+}
+
+.third-width ul {
+    margin: 0 38px 0 0;
+    text-align: center;
+}
+
+.third-width ul li {
+    display: inline;
+}
+
+.third-width ul li img {
+    text-decoration: none;
+    padding: 0 25px 0;
+    align-content: center;
+}
+
+#contact #copyright {
+    text-align: center;
+    clear: both;
+    font-size: 18px;
+    padding-top: 43px;
+}
+
+
+/*Second Page*/
+
+
+#background-two {
+    height: 700px;
+    overflow: auto;
+    background: url('https://cdn.pixabay.com/photo/2016/04/13/15/04/music-sheet-1327003_960_720.jpg');
+    overflow: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    color: yellow;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0 auto;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+#background-two ul {
+    margin: 0 auto;
+    margin-left: 150px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#background-two ul li {
+    list-style: none;
+    color: yellow;
+}
+
+.third-width-two {
+    height: 150px;
+    width: 400px;
+    float: left;
+    text-align: center;
+}
+
+#alamode {
+    margin: 100px 0 0 100px;
+}
+
+#summit, #yama {
+    margin-top: 100px;
+}
+
+.first {
+    color: #1908f7;
+    text-decoration: none;
+    font-size: 50px;
+}
